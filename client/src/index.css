@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  overflow: hidden;
+  overflow-x: hidden;
 }
 
 html,
@@ -14,12 +16,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(56, 56, 185);
-  color: white;
+  /* background-color: rgb(56, 56, 185); */
+  background-color: rgb(254, 254, 254);
+
+  color: rgb(68, 94, 133);
 }
 
-.btn {
-  color: white;
+.head {
+  height: 60px;
+}
+
+.crateContainer {
+  height: 400px;
+}
+
+.crateDesign {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
 }
 
 code {

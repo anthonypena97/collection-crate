@@ -14,9 +14,7 @@ const Header = () => {
     <header className="head">
       <div className="container">
 
-        <h1>Collection Crate</h1>
-
-        <nav>
+        {/* <nav>
           {Auth.loggedIn() ? (
             <>
               <Link to="/profile" className="btn">Me</Link>
@@ -31,7 +29,8 @@ const Header = () => {
               <Link to="/signup" className="btn">Sign Up</Link>
             </>
           )}
-        </nav>
+        </nav> */}
+
       </div>
     </header>
   );
